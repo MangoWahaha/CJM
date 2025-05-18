@@ -1,9 +1,17 @@
 :root {
+  --Text: #2d2d2d;
+  --Background: #f1f7fa;
 }
 
 * {
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: "Onest", Arial, Helvetica, sans-serif;
+  color: var(--Text);
+  background: var(--Background);
 }
 
 header {
@@ -21,6 +29,10 @@ header p {
 }
 
 /* Table-Content */
+.table-content {
+    margin: 20px 0;
+}
+/* Top Stages */
 .table-content .top-stages {
   display: flex;
   margin: 0 32px;
@@ -33,13 +45,12 @@ header p {
   text-align: center;
 }
 
-.table-content .top-stages .stages {
+.table-content .top-stages .stages-challenge {
   content: "";
   width: 0px;
   padding: 15px;
 }
 
-/* Top Stages */
 /* Reseatch */
 .table-content .top-stages .research {
   background: #73ceee;
@@ -58,11 +69,11 @@ header p {
   content: "";
   position: absolute;
   top: 0;
-  left:-13px;
+  left: -13px;
   width: 0;
   height: 0;
-  border-top: 24px solid #4cafe7;
-  border-bottom: 24px solid #4cafe7;
+  border-top: 25px solid #4cafe7;
+  border-bottom: 25px solid #4cafe7;
   border-left: 15px solid #73ceee;
 }
 
@@ -77,14 +88,13 @@ header p {
   content: "";
   position: absolute;
   top: 0;
-  left:-13px;
+  left: -13px;
   width: 0;
   height: 0;
-  border-top: 24px solid #5d9be6;
-  border-bottom: 24px solid #5d9be6;
+  border-top: 25px solid #5d9be6;
+  border-bottom: 25px solid #5d9be6;
   border-left: 15px solid #4cafe7;
 }
-
 
 /* Diagnosis */
 .table-content .top-stages .diagnosis {
@@ -97,14 +107,13 @@ header p {
   content: "";
   position: absolute;
   top: 0;
-  left:-13px;
+  left: -13px;
   width: 0;
   height: 0;
-  border-top: 24px solid #6885e5;
-  border-bottom: 24px solid #6885e5;
+  border-top: 25px solid #6885e5;
+  border-bottom: 25px solid #6885e5;
   border-left: 15px solid #5d9be6;
 }
-
 
 /* Treatment */
 .table-content .top-stages .treatment {
@@ -117,11 +126,11 @@ header p {
   content: "";
   position: absolute;
   top: 0;
-  left:-13px;
+  left: -13px;
   width: 0;
   height: 0;
-  border-top: 24px solid #7269e4;
-  border-bottom: 24px solid #7269e4;
+  border-top: 25px solid #7269e4;
+  border-bottom: 25px solid #7269e4;
   border-left: 15px solid #6885e5;
 }
 
@@ -136,11 +145,11 @@ header p {
   content: "";
   position: absolute;
   top: 0;
-  left:-13px;
+  left: -13px;
   width: 0;
   height: 0;
-  border-top: 24px solid #804ce3;
-  border-bottom: 24px solid #804ce3;
+  border-top: 25px solid #804ce3;
+  border-bottom: 25px solid #804ce3;
   border-left: 15px solid #7269e4;
 }
 
@@ -155,11 +164,11 @@ header p {
   content: "";
   position: absolute;
   top: 0;
-  left:-13px;
+  left: -13px;
   width: 0;
   height: 0;
-  border-top: 24px solid #892ee2;
-  border-bottom: 24px solid #892ee2;
+  border-top: 25px solid #892ee2;
+  border-bottom: 25px solid #892ee2;
   border-left: 15px solid #804ce3;
 }
 
@@ -167,11 +176,200 @@ header p {
   content: "";
   position: absolute;
   top: 0;
-  right:-14px;
+  right: -14px;
   width: 0;
   height: 0;
-  border-top: 24px solid transparent;
-  border-bottom: 24px solid transparent;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
   border-left: 15px solid #892ee2;
 }
 
+/* Stages Result */
+.table-content .stages-content {
+  display: flex;
+  margin: 10px 18px 0px 20px;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Stages */
+.table-content .stages-content .stages {
+  display: flex;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  width: auto;
+  height: 150px;
+  padding: 10px 6px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.table-content .stages-content .stages h2 {
+  font-size: 1rem;
+}
+
+/* Stages Progress */
+.table-content .stages-content p {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  padding: 0 30px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+/* Interaction Result */
+.table-content .interaction-content {
+  display: flex;
+  margin: 1px 18px 0px 20px;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Interaction */
+.table-content .interaction-content .interaction {
+  display: flex;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  width: auto;
+  height: 150px;
+  padding: 10px 6px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.table-content .interaction-content .interaction h2 {
+  font-size: 1rem;
+}
+
+/* Interaction Progress */
+.table-content .interaction-content p {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  padding: 0 30px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+/* Thinking Result */
+.table-content .thinking-content {
+  display: flex;
+  margin: 1px 18px 0px 20px;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Thinking */
+.table-content .thinking-content .thinking {
+  display: flex;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  width: auto;
+  height: 150px;
+  padding: 10px 6px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.table-content .thinking-content .thinking h2 {
+  font-size: 1rem;
+}
+
+/* Thinking Progress */
+.table-content .thinking-content p {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  padding: 0 30px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+/* Feeling Result */
+.table-content .feeling-content {
+  display: flex;
+  margin: 1px 18px 0px 20px;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Feeling */
+.table-content .feeling-content .feeling {
+  display: flex;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  width: auto;
+  height: 150px;
+  padding: 10px 6px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.table-content .feeling-content .feeling h2 {
+  font-size: 1rem;
+}
+
+/* Feeling Progress */
+.table-content .feeling-content p {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  padding: 0 30px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+/* Opportunities Result */
+.table-content .opportunities-content {
+  display: flex;
+  margin: 1px 18px 10px 20px;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Opportunities */
+.table-content .opportunities-content .opportunities {
+  display: flex;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  width: auto;
+  height: 150px;
+  padding: 10px 6px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.table-content .opportunities-content .opportunities h2 {
+  font-size: 1rem;
+}
+
+/* Opportunities Progress */
+.table-content .opportunities-content p {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  padding: 0 30px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
