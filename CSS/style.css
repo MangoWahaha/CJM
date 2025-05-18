@@ -204,6 +204,7 @@ header p {
   align-items: center;
   text-align: center;
   justify-content: center;
+  transition: 0.5s;
 }
 
 .table-content .stages-content .stages h2 {
@@ -221,6 +222,15 @@ header p {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  transition: 0.5s;
+}
+
+.table-content .stages-content .stages:hover {
+    height: 160px;
+}
+
+.table-content .stages-content .stages:hover ~ p {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Interaction Result */
@@ -242,6 +252,7 @@ header p {
   align-items: center;
   text-align: center;
   justify-content: center;
+  transition: 0.5s;
 }
 
 .table-content .interaction-content .interaction h2 {
@@ -259,6 +270,15 @@ header p {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  transition: 0.5s;
+}
+
+.table-content .interaction-content .interaction:hover {
+    height: 160px;
+}
+
+.table-content .interaction-content .interaction:hover ~ p {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Thinking Result */
@@ -280,6 +300,7 @@ header p {
   align-items: center;
   text-align: center;
   justify-content: center;
+  transition: 0.5s;
 }
 
 .table-content .thinking-content .thinking h2 {
@@ -297,6 +318,15 @@ header p {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  transition: 0.5s;
+}
+
+.table-content .thinking-content .thinking:hover {
+    height: 160px;
+}
+
+.table-content .thinking-content .thinking:hover ~ p {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Feeling Result */
@@ -318,6 +348,7 @@ header p {
   align-items: center;
   text-align: center;
   justify-content: center;
+  transition: 0.5s;
 }
 
 .table-content .feeling-content .feeling h2 {
@@ -335,6 +366,15 @@ header p {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  transition: 0.5s;
+}
+
+.table-content .feeling-content .feeling:hover {
+    height: 160px;
+}
+
+.table-content .feeling-content .feeling:hover ~ p {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Opportunities Result */
@@ -356,6 +396,7 @@ header p {
   align-items: center;
   text-align: center;
   justify-content: center;
+  transition: 0.5s;
 }
 
 .table-content .opportunities-content .opportunities h2 {
@@ -373,6 +414,15 @@ header p {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  transition: 0.5s;
+}
+
+.table-content .opportunities-content .opportunities:hover {
+    height: 160px;
+}
+
+.table-content .opportunities-content .opportunities:hover ~ p {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Profile */
