@@ -1,0 +1,177 @@
+:root {
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  border-bottom: 1px solid grey;
+  padding: 20px 36px;
+  margin-bottom: 30px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Table-Content */
+.table-content .top-stages {
+  display: flex;
+  margin: 0 32px;
+}
+
+.table-content .top-stages h2 {
+  font-size: 1rem;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.table-content .top-stages .stages {
+  content: "";
+  width: 0px;
+  padding: 15px;
+}
+
+/* Top Stages */
+/* Reseatch */
+.table-content .top-stages .research {
+  background: #73ceee;
+  color: white;
+  position: relative;
+}
+
+/* Comparison */
+.table-content .top-stages .comparison {
+  background: #4cafe7;
+  color: white;
+  position: relative;
+}
+
+.table-content .top-stages .comparison::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left:-13px;
+  width: 0;
+  height: 0;
+  border-top: 24px solid #4cafe7;
+  border-bottom: 24px solid #4cafe7;
+  border-left: 15px solid #73ceee;
+}
+
+/* Appointment */
+.table-content .top-stages .appointment {
+  background: #5d9be6;
+  color: white;
+  position: relative;
+}
+
+.table-content .top-stages .appointment::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left:-13px;
+  width: 0;
+  height: 0;
+  border-top: 24px solid #5d9be6;
+  border-bottom: 24px solid #5d9be6;
+  border-left: 15px solid #4cafe7;
+}
+
+
+/* Diagnosis */
+.table-content .top-stages .diagnosis {
+  background: #6885e5;
+  color: white;
+  position: relative;
+}
+
+.table-content .top-stages .diagnosis::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left:-13px;
+  width: 0;
+  height: 0;
+  border-top: 24px solid #6885e5;
+  border-bottom: 24px solid #6885e5;
+  border-left: 15px solid #5d9be6;
+}
+
+
+/* Treatment */
+.table-content .top-stages .treatment {
+  background: #7269e4;
+  color: white;
+  position: relative;
+}
+
+.table-content .top-stages .treatment::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left:-13px;
+  width: 0;
+  height: 0;
+  border-top: 24px solid #7269e4;
+  border-bottom: 24px solid #7269e4;
+  border-left: 15px solid #6885e5;
+}
+
+/* Post-Treatment */
+.table-content .top-stages .post-treatment {
+  background: #804ce3;
+  color: white;
+  position: relative;
+}
+
+.table-content .top-stages .post-treatment::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left:-13px;
+  width: 0;
+  height: 0;
+  border-top: 24px solid #804ce3;
+  border-bottom: 24px solid #804ce3;
+  border-left: 15px solid #7269e4;
+}
+
+/* Follow Up */
+.table-content .top-stages .follow-up {
+  background: #892ee2;
+  color: white;
+  position: relative;
+}
+
+.table-content .top-stages .follow-up::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left:-13px;
+  width: 0;
+  height: 0;
+  border-top: 24px solid #892ee2;
+  border-bottom: 24px solid #892ee2;
+  border-left: 15px solid #804ce3;
+}
+
+.table-content .top-stages .follow-up::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right:-14px;
+  width: 0;
+  height: 0;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 15px solid #892ee2;
+}
+
